@@ -1,0 +1,2 @@
+import math #math kütüphanesini projeye dahil ediyoruz
+print (math.sqrt(4))
