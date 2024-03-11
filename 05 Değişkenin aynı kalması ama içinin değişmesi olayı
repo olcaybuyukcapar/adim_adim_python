@@ -1,0 +1,15 @@
+degisken01 = "su"
+print(degisken01)
+print(type(degisken01))
+print("Değişkenin adı AYNI KALACAK - İÇİNDEKİ VERİ DEĞİŞECEK")
+degisken01 = "ayran"
+print(degisken01)
+print(type(degisken01))
+print("Değişkenin adı AYNI KALACAK - İÇİNDEKİ VERİ DEĞİŞECEK")
+degisken01 = 9
+print(degisken01)
+print(type(degisken01))
+print("Değişkenin adı AYNI KALACAK - İÇİNDEKİ VERİ DEĞİŞECEK")
+degisken01 = False
+print(degisken01)
+print(type(degisken01))
