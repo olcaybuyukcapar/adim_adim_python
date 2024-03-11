@@ -1,0 +1,4 @@
+deger1 = int(input("bir sayı giriniz: "))
+deger2 = int(input("lütfen dğer sayıyı giiniz:"))
+toplam = deger1 + deger2
+print(deger1 , "+" , deger2 , "=" , toplam)
