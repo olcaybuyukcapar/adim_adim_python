@@ -1,0 +1,7 @@
+x = 25696.589656456
+print(x)
+print(round(x))
+print(round(x,1))
+print(round(x,2))
+print(round(x, -2))
+print(round(x, -1))
