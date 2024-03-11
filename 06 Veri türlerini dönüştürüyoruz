@@ -1,0 +1,20 @@
+a = 5
+b = 9
+c = 12
+
+print(type(a))
+a = str(a)
+print(type(a))
+a = int(a)
+print(type(a))
+
+d = a + b
+print(d)
+d = a+b+c
+print(d)
+d = str(a) + str(b) + str(c)
+print(d)
+
+print("______________________")
+print("                            ")
+print("200" + "10" + "6")
