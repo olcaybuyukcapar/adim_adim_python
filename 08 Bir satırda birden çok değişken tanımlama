@@ -1,0 +1,3 @@
+ad,soyad,yas,okul = "Berat","Yeşilova",14,"Ş.Ahmet Özsoy İHO"
+print(ad) #ad değişkeninin içindeki veriyi ekrana yazdırır
+print(yas) #yas değişkeninin içindeki veriyi ekrana yazdırır
