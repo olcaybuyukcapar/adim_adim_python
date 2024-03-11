@@ -1,0 +1,9 @@
+print("ali" + "5")
+
+x = 4 + 9
+print(x*3)
+y = x + 5
+print("+")
+print(y)
+print("=")
+print(3*x + y)
