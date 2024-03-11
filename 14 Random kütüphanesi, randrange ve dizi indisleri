@@ -1,0 +1,8 @@
+import random #random kütüphanesini dahil ediyoruz projeye
+r=random.randrange(0,5,1) #r adlı değişken içine 0 ila 4 arasında sayılardan (0,1,2,3,4) birinin 1'er aralıkla rastgele seçilmesini
+print(r) # bu satır kontrol amaçlı, randrange'in hangisini seçtiğini görelim dedik eğitimlerimizde
+
+
+c=["caner","emir","arda","onur","aytuğ"] #dizimizde kuraya katılacak öğrenci isimleri. indis 0'dan başlar
+x=c[r] #c dizisi içindeki r rastgele sayısına denk gelen indisteki dizi elemanının x değişkenine aktardık
+print(x) # bastık ekrana
