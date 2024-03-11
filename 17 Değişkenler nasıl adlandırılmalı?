@@ -1,0 +1,19 @@
+mesaj = "Merhaba"
+print(mesaj)
+
+_ad_soyad = "Berat" #değişken adının hemen başında _ işareti serbest!
+
+kitapkodu = 9
+kitabioduncalanogrencisinifi = "9/F"
+
+kitabi_Odunc_Alan_Ogrenci_Sinifi = "9/F"
+kitabiOduncAlanOgrenciSinifi = "9/F"
+
+kitap_kodu = 9 #Şahsen benim de en çok tercih ettiğim yöntemdir. Yılan şeklinde yazım.
+kitapKodu = 9
+kitapkodu = 9
+# kitap-kodu = 9 örneği hatalıdır. Kebap metodu ile değişken adlandırma Python'da geçersizdir
+# 00KitapKodu = 9 örneği hatalıdır. Rakamla değişken adlandırma başlamaz.
+# Çağrı_Metni = Türkçe karakter çalışır ancak önerilmez.
+# Kit@p_Kod = Geçersizdir. Simge yasak.
+KitapKodu = 9 # Bu örnek geçerlidir. Deve yöntemidir bu.
