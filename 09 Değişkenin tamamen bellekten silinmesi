@@ -1,0 +1,11 @@
+a = 10
+print("a değişkeninin ilk değeri", a , "ve türü" , type(a))
+a = "ABC"
+print("a değişkeninin yeni değeri", a , "ve türü" , type(a))
+#del a  # del ile değişken tamamen silinir
+a = ""
+print(a)
+
+
+a,b,c=1,2,3
+del a,b,c #tek defada da siliniyor değişkenler
