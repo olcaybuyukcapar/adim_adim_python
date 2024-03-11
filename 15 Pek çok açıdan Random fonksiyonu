@@ -1,0 +1,16 @@
+import random #random kütüphanesi import edildi
+
+x = random.randint(0,9) #0'da çıkabilir 9 da...
+print(x)
+
+x = random.randrange(0,9) #en fazla 8 çıkabilir
+print(x)
+
+x = random.randrange(5,20) #en az 5 en çok 19 çıkabilir
+print(x)
+
+x = random.randrange(100,1000,3) # 100->enaz // 998 ->ençok 3'erli artar
+print(x)
+
+y = random.sample(range(0,100), 10) # basit rastgele örnekleme; belirilen aralıkta 10 tane sayıyı dizi olarak ver bana
+print(y)
