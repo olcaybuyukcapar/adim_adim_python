@@ -1,0 +1,26 @@
+print("Değişkenler ve değerler konusuna hoş geldiniz")
+ad = "Berat"
+soyad = "Yeşilova"
+yas = 14
+kilo = 55.3
+ogrenci_mi = True
+okul = "Şehit Ahmet Özsoy İHO"
+no, sinif, sira_no = "206", "8A", "5"
+sayi1 = "5057717252"
+
+print(type(ad))
+print(type(soyad))
+print(type(yas))
+print(type(kilo))
+print(type(ogrenci_mi))
+print(type(okul))
+
+print(sira_no)
+print(4)
+print(25+98-8-69)
+
+print('Olcay')
+print("Yiğit Ali")
+
+print(no * 3)
+print(type(sayi1))
