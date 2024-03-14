@@ -1,0 +1,40 @@
+# karşılaştırma operatörleri
+
+x = 6
+y = 8
+
+# EŞİT Mİ? OPERATÖRÜ
+
+print(x == y)  # doğrudan False/True durumunu bu şekild ekrana basmak mümkün
+
+# ya da if-else koşul yapısıyla da sonuç alınabilir
+if x == y: print("iki değer eşittir") 
+else: print("eşit değiller")
+
+#bir diğer yöntem de def ile fonksiyon tanımlamak ve return etmek True/False sonucunu
+def kontrol_fonk(deger):
+  if deger == 10:
+    return True
+  else:
+    return False
+
+#şimdi de tanımladığımız fonksiyonu işe koşalım
+print(kontrol_fonk(5))  # False almamız gerekir
+print(kontrol_fonk(10))  #True return edilir
+
+
+# EŞİT DEĞİL Mİ? OPERATÖRÜ
+x = 10
+y = 9
+print (x != y)  # eşit değil mi x y'ye... önermesi DOĞRU yani TRUE'dur. 
+
+# BÜYÜK MÜ? OPERATÖRÜ
+print(x > y) # soldaki sağdakinden küçük mü=... burada true çıkmalı
+
+# KÜÇÜK MÜ? OPERATÖRÜ
+print(x < y)  # false çıkmalı
+
+# BÜYÜK EŞİT Mİ? OPERATÖRÜ
+print(x >= y)
+#KÜÇÜK EŞİT Mİ? operatörü
+print(x <= y)
