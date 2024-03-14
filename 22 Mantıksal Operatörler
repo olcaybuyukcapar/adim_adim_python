@@ -1,0 +1,14 @@
+# Mantıksal Operatörler
+
+x = 5
+y = 6
+z = 7
+
+print(x>10 and y>10 and z>10)  #and önermesi yani "ve" ile tüm koşullar aynı anda sağlanmalı FALSE return edecek
+print(x<10 and y>10)  # false return edecek, soldaki önerme true ancak y>10 önermesi false
+print(x<10 and z<10) # true return edecek. Her iki önerme de true zira
+
+print(x==y or x==z) # false dönecek, iki koşuldan en az birinin true olması gerekirdi ama değil. ikisi de false
+print(x<y or x==y) #ture return edecek. Koşullardan soldaki yani birisi doğru
+
+print(not(x==y)) # ture gelecek. x y'ye eşit değil mi?önermesi evet True yani evet [eşit değil]
