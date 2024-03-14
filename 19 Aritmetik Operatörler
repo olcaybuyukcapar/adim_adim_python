@@ -1,0 +1,25 @@
+ # aritmetik operatörler
+
+a = 11
+b = 9
+
+toplam = a + b   # toplama operatoru
+print(toplam)
+
+fark = a - b  # çıkarma (fark alma) operatörü
+print(fark)
+
+carpim = a * b  # Çarpma işlemi
+print(carpim)
+
+bolum = a / b # Bölme işlemi
+print(bolum)
+
+mod = a % b  # Bölümden kalanı (mod) bulma
+print(mod)
+
+tam_bolum = a // b  # tam bölme (kalanı ignore eden bölme) işlemi
+print(tam_bolum)
+
+ussu = a ** b  # Üs (kuvvet) alma  -->  alternatif olarak pow da kullanılabilir: import.math - math.pow(a, b)
+print(ussu)
