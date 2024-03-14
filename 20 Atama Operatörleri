@@ -1,0 +1,33 @@
+# atama operatörleri (kısaltılmış yöntem ve uzun yazılışları)
+
+x = 20  # değişkene değer atama (sağdaki değer soldaki değişkene girer)
+y = 5
+
+x = y  # şimdi y içindeki değer x içine girdi ve x 5 oldu
+print(x)
+
+x += y  # x=x+y bu da uzun hali
+print(x)
+
+x -= y # x=x-y  uzun/açık yazılışı
+print(x)
+
+x *= y # x=x*y   çarpma işlemi uzunu da bu
+print(x)
+
+x /= y  # x=x/y  bölme işlemi uzun yazılışı
+print(x)
+
+x %= y  # x=x%y  uzun hali
+print(x)
+
+x = 10 # bir önceki satırda mod alırken x=0 olundu. Üs alacağım için yeniden içine poztifi bir değer atadım
+y = 2
+x **= y # uzun hali şudur: x = x ** y  -> x'in y'inci kuvveti  
+print(x)
+
+x **= 3 # x'in üçüncü kuvvetinin kısa yazılışı uzunu şu x = x ** 3
+print(x)
+
+x //= y  # x = x // y
+print(x)
