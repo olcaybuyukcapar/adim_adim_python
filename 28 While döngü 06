@@ -1,0 +1,12 @@
+# 1'den 100' kadar tek sayıların toplanması örneği
+sayi = 0
+sonuc = 0
+
+while sayi <= 100:
+  sayi += 1
+  if sayi % 2 == 0:
+    continue
+  sonuc += sayi
+#print(sonuc)
+#print(f'toplam: {sonuc}') #f-string olarak bilinen bir özelliktir; metin ve değişkenleri tek bir dizede birleştirmenizi sağlar.
+print("toplam:",sonuc) # valla bu da önceki satırla aynı işi yapıyor. Sade olunca havası mı azalıyor yani!
