@@ -1,0 +1,19 @@
+print("Bu hafta pek çok iş kalemi mevcut.") 
+print("Bu hafta pek çok iş kalemi mevcut.", end="\n") #üstteki durumun varsayılanı
+print("Bu hafta pek çok iş kalemi mevcut.", end=" & ")
+print("Bu işleri tek tek tamamlayarak yanlarına işaret koyacağız.")
+
+print("\n") #örnekleri iyi anlamak için aralarına boşluk bırakıyorum
+
+print("Bu hafta pek çok iş kalemi mevcut.")
+print("Bu işleri tek tek tamamlayarak yanlarına işaret koyacağız.")
+
+print("\n") #örnekleri iyi anlamak için aralarına boşluk bırakıyorum
+
+print("Bu hafta pek çok iş kalemi mevcut.",end="\n")
+print("Bu işleri tek tek tamamlayarak yanlarına işaret koyacağız.")
+
+print("\n") #örnekleri iyi anlamak için aralarına boşluk bırakıyorum
+
+print("Bu hafta pek çok iş kalemi mevcut.",end=" $$ ")
+print("Bu işleri tek tek tamamlayarak yanlarına işaret koyacağız.")
