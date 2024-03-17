@@ -1,0 +1,3 @@
+print(*"Çınar Meriç Büyükçapar") # çıktısı --> Ç ı n a r   M e r i ç   B ü y ü k ç a p a r
+print(*"Çınar Meriç Büyükçapar",sep="") # çıktı: Çınar Meriç Büyükçapar
+print(*"Çınar Meriç Büyükçapar",sep="-") # çıktısı: Ç-ı-n-a-r- -M-e-r-i-ç- -B-ü-y-ü-k-ç-a-p-a-r
