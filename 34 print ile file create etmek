@@ -1,0 +1,6 @@
+dosya = open("deneme.txt","w")
+print("Ben Python", file=dosya)
+dosya.close()
+
+import os
+os.getcwd()
