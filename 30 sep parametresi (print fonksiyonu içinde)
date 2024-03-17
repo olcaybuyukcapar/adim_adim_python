@@ -1,0 +1,7 @@
+#sep parametresi Print fonksiyonu içinde
+print("Olcay","Büyükçapar","insandır","ve","insana özgü hatalar ondan uzak olmamıştır")  # gizli sep var
+print("Olcay","Büyükçapar","insandır","ve","insana özgü hatalar ondan uzak olmamıştır", sep=" ") # gizli sep açık açık yazıldı
+print("Olcay","Büyükçapar","insandır","ve","insana özgü hatalar ondan uzak olmamıştır", sep="-") #değiştirdik seperatoru
+print("Olcay","Büyükçapar","insandır","ve","insana özgü hatalar ondan uzak olmamıştır", sep="_" + "#_") #sep yanına eklemeler
+
+# sep varsayılanı = " " zaten. Ancak dilersek bu ayırıcıyı (seperator) değiştirebiliriz
