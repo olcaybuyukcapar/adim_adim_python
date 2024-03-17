@@ -1,0 +1,2 @@
+print("Meriç\nTuna\nZerrin ")  #alt lta satır satır yazılacak
+print("Meriç","Tuna","Zerrin", sep="\n") #aynı olay ama sep ile
