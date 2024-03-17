@@ -1,0 +1,13 @@
+# print çoklu satırı serbestçe yazma olayı
+print("""
+
+Bu alana dilediğimiz
+    gibi
+        işte mesela böyle 
+      yazmak
+    olası
+  hata alınmaz. . . 
+    'tek tırnak' sorun olmaz
+    " çift tırnak bile sorun olmayacaktır " 
+            özel karakterler *@&%&+^zaten sorun değil
+""")
