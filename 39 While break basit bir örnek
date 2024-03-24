@@ -1,0 +1,7 @@
+print("Program amacı girilen sayıyı ekrana yazdırmaktır. While döngüsü içinde...")
+print("Programı sonlandırmak için 0 (sıfır) sayısını giriniz")
+while True: # Döngü içinde sürekli aşağıdaki işlemleri tekrarla
+    s=int(input("sayı gir: "))
+    print(s)  # Yazdığım sayıyı ekrana bas,
+    if s==0:  # 0 girildiğinde çık
+        break
