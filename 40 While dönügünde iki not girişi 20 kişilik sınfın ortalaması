@@ -1,0 +1,16 @@
+topOrt = 0
+i = 0
+while i < 20:
+    i = i + 1
+
+    print(i,".öğrencinin notlarını giriniz...")
+
+    not1 = input("Birinci notu giriniz: ")
+    not2 = input("İkinci notu giriniz: ")
+
+    ort = (int(not1) + int(not2)) / 2
+    topOrt = topOrt + ort
+    
+
+sinifOrt = topOrt / i
+print("Sınıfın ortalaması: ",sinifOrt)
