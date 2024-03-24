@@ -1,0 +1,12 @@
+def dogru():
+    print("Girdiğiniz parola DOĞRU.")
+def yanlis():
+    print("Parolanızı YANLIŞ girdiniz ! ")
+
+belirlenen_parola = "1234"
+girilen_parola = input("parolayı giriniz: ")
+
+if (belirlenen_parola==girilen_parola):
+    dogru()
+else:
+    yanlis()
