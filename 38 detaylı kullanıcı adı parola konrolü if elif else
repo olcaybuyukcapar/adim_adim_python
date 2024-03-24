@@ -1,0 +1,18 @@
+kuladi = "aoal"
+sifresi = "123"
+
+kullanici_adi=input("Kullanıcı adınızı giriniz : ")
+sifre=input("Sifrenizi giriniz : ")
+
+if kullanici_adi==kuladi and sifre==sifresi:
+    print("Giriş Başarılı...")
+elif kullanici_adi=="" and sifre=="":
+    print("Lutfen Bilgileri Giriniz.")
+elif kullanici_adi==kuladi and sifre!=sifresi:
+    print("Kullanıcı adınız doğru, Fakat Şifreniz Yanlış --- > Tekrar Deneyiniz.")
+elif kullanici_adi!=kuladi and sifre==sifresi:
+    print("Şifreniz Doğru, Fakat Kullanıcı Adınız Yanlış --- > Tekrar Deneyiniz.")
+elif kullanici_adi!=kuladi and sifre!=sifresi:
+    print("Girdiğiniz Bilgileri Kontrol Ediniz.")
+else:
+    print("Giriş Başarısız...")
