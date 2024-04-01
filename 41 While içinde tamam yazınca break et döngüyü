@@ -1,0 +1,8 @@
+while True:
+    ad = input("adınız nedir? ")
+    
+    if ad == "tamam":
+      break
+    
+    print("selam", ad)
+    
