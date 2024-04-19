@@ -1,0 +1,9 @@
+# Parametre girilmesi gereken bir fonksiyon örneği
+
+def AraliktakiSayilarTopla(n, m=100):
+  toplam = 0
+  for deger in range(n, m +1):
+    toplam = toplam + deger
+  print(toplam)
+
+AraliktakiSayilarTopla(69)
