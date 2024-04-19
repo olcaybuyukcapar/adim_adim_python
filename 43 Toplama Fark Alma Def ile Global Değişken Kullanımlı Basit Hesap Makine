@@ -1,0 +1,55 @@
+#Kullanıcının seçimine göre toplama/fark alma işlemi yapan Python Programı
+
+def Yardim():
+  print("Topla      : Girilen iki sayıyı toplar")
+  print("Farkını al : Girilen iki sayının farkını alır")
+  print("Yazdır     : İşlem sonucunu ekrana basar")
+  print("Yardım     : Bu ekranı görüntüler")
+  print("Çıkış      : Programdan çıkış sağlar")
+
+def Menu():
+  return input("=== (T)opla (F)ark al (Y)azdır y(A)rdım  (Ç)ıkış ===")
+
+#Programda kullanılacak Global Değişkenler
+
+sonuc = 0.0
+sayi1 = 0.0
+sayi2 = 0.0
+
+def sayiGir():
+  global sayi1, sayi2  # sayı 1 v sayı2'nin gloabal değişken olduğu deklere ediliyor
+
+  sayi1 = float(input("Sayı1'i giriniz #1: "))
+  sayi2 = float(input("Sayı2'i giriniz #2: "))
+
+def Yazdir():
+  print(sonuc)
+
+def Topla():
+  global sonuc
+  sonuc = sayi1 + sayi2
+
+def FarkAl():
+  global sonuc
+  sonuc = sayi1 - sayi2
+
+def main():
+  durum = False
+  while not durum:
+    secim = Menu() # işlem yapılacak menü tasarımı
+    if secim == "T" or secim == "t": #toplama
+      sayiGir()
+      Topla()
+      Yazdir()
+    elif secim == "F" or secim == "f": #fark alma
+      sayiGir()
+      FarkAl()
+      Yazdir()
+    elif secim == "Y" or secim == "y":  # yazdırma
+      Yazdir()
+    elif secim == "A" or secim == "A":  # yazdırma
+      Yardim()
+    elif secim == "Ç" or secim == "ç":  # yazdırma
+      durum = True
+main()
+
