@@ -1,0 +1,22 @@
+# Bir ders notuna göre öğrencinin geçti/kaldı durumu
+
+# Birinci aşama
+puan = 78
+if puan > 49:
+    print("geçti")
+else:
+    print("kaldı")
+
+#Birinci aşamanın diğer versiyonu
+puan = 78
+if puan >= 50:
+    print("geçti")
+else:
+    print("kaldı")
+
+#Kullanıcı veri girişi yapabilsin (int parantezine alınmalı)
+puan = int(input("Notunuzu giriniz: "))
+if puan >= 50:
+    print("geçti")
+else:
+    print("kaldı")
