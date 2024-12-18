@@ -1,0 +1,15 @@
+import random
+
+oyuncu1 = int(input("seçiminizi girin: "))
+
+rand = random.randint(0,2)
+print(rand)
+              
+if(int(rand) == 0):
+   print("taş")
+elif(int(rand) == 1):
+   print("kağıt")
+else:
+   print("makas")
+
+
