@@ -1,0 +1,15 @@
+# Dersten alınan nota göre-> teşekkür/takdir/belge yok/kaldı ->durumu
+
+ders_notu = int(input("Notunuzu giriniz: "))
+
+if ders_notu >= 85 and ders_notu <=100:
+    print("Takdir aldınız.")
+elif ders_notu >= 70 and ders_notu <85:
+    print("Teşekkür aldınız.")
+elif ders_notu >= 50 and ders_notu <70:
+    print("Dersten geçtiniz ama belge alamadınız.")
+elif ders_notu >= 0 and ders_notu <50:
+    print("Bu dersten kaldınız.")
+else:
+    print("Lütfen 0 ile 100 arasında geçerli bir not giriniz.")
+    
