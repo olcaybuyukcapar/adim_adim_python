@@ -1,0 +1,9 @@
+# İç içe if örneği - Girilen sayının 0-10 aralığında olma durumu
+s = int(input("sayı gir: "))
+if s <= 10:
+    if s >= 0:
+        print("sayı 0 ile 10 arasındadır")
+    else:
+        print("0 dan küçüktür")
+else:
+    print("sayı 10'dan büyüktür")
