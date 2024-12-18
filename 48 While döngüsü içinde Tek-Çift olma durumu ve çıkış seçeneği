@@ -1,0 +1,13 @@
+print("Program amacı sayı tek çift durumunu yazdırmak. While döngüsü içinde...")
+print("Programı sonlandırmak için 0 (sıfır) sayısını giriniz")
+
+while True:
+    
+    sayi = int(input("Sayıyı giriniz: "))
+
+    if (sayi == 0):
+        break  #Eğer 0 girilirse While döngüsü sonlanır, programdan çıkış yapılır. 
+    elif(sayi%2 == 0):
+        print("çift")
+    else:
+        print("tek")
